@@ -14,8 +14,6 @@ A command-line tool for creating professional-quality Magic: The Gathering deck 
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -133,61 +131,5 @@ deckforge problematic_deck.csv
 #            • invalid-card-2: Error: Network timeout
 #            • Successfully processed 8 cards
 ```
-
-## Contributing
-
-We welcome contributions! Please follow these guidelines:
-
-### Development Setup
-
-1. Fork the repository
-2. Clone your fork:
-   ```bash
-   git clone https://github.com/yourusername/deckforge-cli.git
-   cd deckforge-cli
-   ```
-3. Install Go 1.21+
-4. Build the project:
-   ```bash
-   go build -o deckforge-cli ./cmd/deckforge
-   ```
-5. Run tests:
-   ```bash
-   go test ./...
-   ```
-
-### Making Changes
-
-1. Create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-2. Write tests for new functionality
-3. Ensure all tests pass:
-   ```bash
-   go test ./...
-   go vet ./...
-   go fmt ./...
-   ```
-4. Follow Go best practices and existing code style
-5. Update documentation as needed
-
-### Pull Requests
-
-- Provide clear description of changes
-- Reference any related issues
-- Ensure CI checks pass
-- Squash commits for clean history
-- Update CHANGELOG.md for user-facing changes
-
-### Code Style
-
-- Follow standard Go formatting (`go fmt`)
-- Use meaningful variable and function names
-- Add comments for complex logic
-- Include unit tests for new features
-- Handle errors appropriately
-- Follow the guidelines in `AGENTS.md`
----
 
 Built with ❤️ for the MTG community
