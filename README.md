@@ -3,7 +3,6 @@
 > Generate printable MTG deck PDFs from Archidekt CSV exports
 
 [![Go Version](https://img.shields.io/badge/go-1.21+-blue.svg)](https://golang.org)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 A command-line tool for creating professional-quality Magic: The Gathering deck PDFs with configurable bleed margins and clean progress tracking.
 
