@@ -188,20 +188,6 @@ We welcome contributions! Please follow these guidelines:
 - Include unit tests for new features
 - Handle errors appropriately
 - Follow the guidelines in `AGENTS.md`
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Changelog
-
-### v1.0.0 (Current)
-- Initial release with core functionality
-- Configurable bleed margins
-- Indexed progress display
-- Smart output naming
-- Error handling and reporting
-
 ---
 
 Built with ❤️ for the MTG community
